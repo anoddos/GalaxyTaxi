@@ -7,4 +7,12 @@
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\GalaxyTaxi.Shared\GalaxyTaxi.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="protobuf-net.Grpc.AspNetCore" Version="1.0.152" />
+    </ItemGroup>
+
 </Project>
